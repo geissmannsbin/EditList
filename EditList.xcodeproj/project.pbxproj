@@ -13,6 +13,11 @@
 		C1ABE678253DCF5D00ACFE88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1ABE676253DCF5D00ACFE88 /* Main.storyboard */; };
 		C1ABE67A253DCF5E00ACFE88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1ABE679253DCF5E00ACFE88 /* Assets.xcassets */; };
 		C1ABE67D253DCF5E00ACFE88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1ABE67B253DCF5E00ACFE88 /* LaunchScreen.storyboard */; };
+		C1ABE68A253DD35300ACFE88 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ABE689253DD35300ACFE88 /* MasterViewController.swift */; };
+		C1ABE68E253DD68C00ACFE88 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ABE68C253DD68C00ACFE88 /* DataProvider.swift */; };
+		C1ABE68F253DD68C00ACFE88 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ABE68D253DD68C00ACFE88 /* Person.swift */; };
+		C1ABE692253DDD3E00ACFE88 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ABE691253DDD3E00ACFE88 /* DetailViewController.swift */; };
+		C1ABE699253DE42A00ACFE88 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1ABE698253DE42A00ACFE88 /* EditViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		C1ABE679253DCF5E00ACFE88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1ABE67C253DCF5E00ACFE88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1ABE67E253DCF5E00ACFE88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1ABE689253DD35300ACFE88 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		C1ABE68C253DD68C00ACFE88 /* DataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		C1ABE68D253DD68C00ACFE88 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		C1ABE691253DDD3E00ACFE88 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		C1ABE698253DE42A00ACFE88 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,8 @@
 		C1ABE66F253DCF5D00ACFE88 /* EditList */ = {
 			isa = PBXGroup;
 			children = (
+				C1ABE68C253DD68C00ACFE88 /* DataProvider.swift */,
+				C1ABE68D253DD68C00ACFE88 /* Person.swift */,
 				C1ABE670253DCF5D00ACFE88 /* AppDelegate.swift */,
 				C1ABE672253DCF5D00ACFE88 /* SceneDelegate.swift */,
 				C1ABE674253DCF5D00ACFE88 /* ViewController.swift */,
@@ -63,6 +75,9 @@
 				C1ABE679253DCF5E00ACFE88 /* Assets.xcassets */,
 				C1ABE67B253DCF5E00ACFE88 /* LaunchScreen.storyboard */,
 				C1ABE67E253DCF5E00ACFE88 /* Info.plist */,
+				C1ABE689253DD35300ACFE88 /* MasterViewController.swift */,
+				C1ABE691253DDD3E00ACFE88 /* DetailViewController.swift */,
+				C1ABE698253DE42A00ACFE88 /* EditViewController.swift */,
 			);
 			path = EditList;
 			sourceTree = "<group>";
@@ -137,9 +152,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1ABE699253DE42A00ACFE88 /* EditViewController.swift in Sources */,
+				C1ABE68F253DD68C00ACFE88 /* Person.swift in Sources */,
+				C1ABE68A253DD35300ACFE88 /* MasterViewController.swift in Sources */,
 				C1ABE675253DCF5D00ACFE88 /* ViewController.swift in Sources */,
+				C1ABE68E253DD68C00ACFE88 /* DataProvider.swift in Sources */,
 				C1ABE671253DCF5D00ACFE88 /* AppDelegate.swift in Sources */,
 				C1ABE673253DCF5D00ACFE88 /* SceneDelegate.swift in Sources */,
+				C1ABE692253DDD3E00ACFE88 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
